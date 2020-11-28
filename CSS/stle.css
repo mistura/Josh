@@ -3,3 +3,131 @@
     padding: 0%;
     box-sizing: border-box;
 }
+#banner{
+    color: wheat;
+    width: 100%;
+    height: 660px;
+    animation: animate 12s step-start infinite;
+    /* background-image: url("../images/Simple\ Work\ Blog\ Banner.png");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+}
+@keyframes animate{
+    0%, 100%{
+        background-image: url("../images/babba.jpg");
+    }
+    25%{
+        background-image: url("../images/banna.jpg");
+    }
+    50%{
+        background-image: url("../images/Simple\ Work\ Blog\ Banner.png");
+    }
+    75%{
+        background-image: url("../images/banna2.png");
+    }
+}
+#opa{
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.8)
+}
+.nav ul{
+margin-left: 20%;
+width: 60%;
+}
+.nav ul a{
+font-size: 21px;
+margin-left: 3%;
+font-weight: 600;
+text-decoration: none;
+color: wheat;
+}
+.nav ul a:hover{
+    color: #FF8C00;
+    border-bottom: solid 2px #FF8C00;
+}
+#let{
+padding: 2%;
+border: solid white;
+}
+#let:hover{
+    border: solid #FF8C00;
+}
+.nav ul a:nth-child(6){
+margin-left: 15%;
+}
+#logo{
+font-weight: 700;
+font-size: 40px;
+margin-left: 5%;
+font-family: 'Courier New', Courier, monospace
+}
+.nav{
+padding-top: 40px;
+width: auto;
+height: auto;
+display: flex
+}
+.text{
+width: auto;
+height: 400px;
+margin-left: 20%;
+margin-top: 100px;
+}
+.text h1{
+    font-size: 65px;
+    font-weight: 900;
+}
+.text p{
+margin-left: 2%;
+font-weight: bold;
+}
+.text h2{
+width: 0ch;
+overflow: hidden;
+white-space: nowrap;
+animation: text  10s infinite;
+border-right: 3px solid wheat;
+margin-bottom: 80px;
+margin-left: 5%;
+}
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 16ch;
+    }
+}
+.text a{
+font-size: 20px;
+font-weight: 700;
+padding: 20px;
+color: wheat;
+margin-left: 3%;
+border: solid wheat;
+}
+.text a:hover{
+color: #FF8C00;
+border: solid #FF8C00;
+}
+.mybio{
+width: 80%;
+height: 200px;
+margin: auto;
+margin-top: 70px;
+text-align: center;
+}
+.m{
+color: #FF8C00;
+font-weight: 700;
+font-size: 20px;
+}
+.mybio h1{
+font-size: 55px;
+font-weight: 700;
+}
+.p{
+font-size: 18px;
+color: black;
+}
