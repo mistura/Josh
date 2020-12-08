@@ -5,46 +5,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hello, I'm Joshua</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/font.css">
-    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/font.css">
+    <link rel="stylesheet" href="CSS/all.css">
     <link rel="stylesheet" href="CSS/stle.css">
     <script src="js/bootstrapjquery.js"></script>
     <script src="js/proper.js"></script>
     <script src="js/bootstrap.js"></script>
 </head>
 <body>
-    <div id="contain">
+    <div class="row contain w-100">
 <!-- section containing bannaer image nav bar -->
         <div id="banner">
             <div id="opa">
                     <div class="nav">
                             <h1 id="logo">Josh.</h1>
+                            <div id="icon"><img src="images/menu icon.png" alt=""></div>
+                            <div id="men">
+                                <a href="#banner">Home</a>
+                                <a href="#mybio">About</a>
+                                <a href="#header">Services</a>
+                                <a href="resume.html">Resume</a>
+                                <a href="blog.html">Blog</a>
+                            </div>
                             <ul>
-                                <a href="">Home</a>
-                                <a href="">About</a>
-                                <a href="">Services</a>
-                                <a href="">Resume</a>
-                                <a href="">Contact</a>
-                                <a id="let" href="">Lets Talk</a>
+                                <a href="#banner">Home</a>
+                                <a href="#mybio">About</a>
+                                <a href="#header">Services</a>
+                                <a href="resume.html">Resume</a>
+                                <a href="blog.html">Blog</a>
+                                <a id="let" href="contact.html">Lets Talk</a>
                             </ul>
                     </div>
                     <div class="text">
                             <p>Hello! I'm</p>
                             <h1>Terkimbi Joshua</h1>
-                            <h2 style="display: flex;">Programs Manager</h2>
-                            <a style="margin-top: 50px;" href="">Hire Me</a>
+                            <h2>Programs Manager</h2>
+                            <!-- <h2>Project Manager</h2>
+                            <h2>Business Developer</h2>
+                            <h2>HR Manager</h2> -->
+                            <a style="margin-top: 50px;" href="mailto: quadri.mistura@gmail.com">Hire Me</a>
                     </div>
+                   
             </div>
         </div>
-        <div class="mybio">
+
+        <!-- section conaining DP and  breif skills -->
+        <div id="mybio">
             <p class="m">My Bio</p>
             <h1>Welcome to My Site</h1><br>
             <p class="p">Lorem, ipsum dolornatur autem nihil incidunt optio error, porro eligendi, commodi possimus, accusantium exercitationem cupiditate quos est impedit cum reiciendis praesentium. Sapiente iure fuga quae.</p>
         </div>
-        <div class="row w-100 border"></div>
+        <div class="row w-100 h-auto mt-5 biorow">
+            <div class="col ml-2 box">
+                <h1>Innovative Solutions to Boost your Business Project.</p>
+                <h2 class="pm">Programs Management</h2>
+                <p>Lorem ipsum dolor Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit. Quos assumenda recusandae
+                     voluptatibus ad ipsa illo! Neque blanditiis aliquid
+                      perspiciatis perferendis. sit amet consectetur adipis
+                      icing elit. Cumque esse neque eaque amet inventore n
+                      emo harum numquam suscipit mollitia deleniti consequatur
+                       ipsa, nesciunt totam atque debitis culpa recusandae 
+                       facilis minima?</p>
+                <button a href="resume.html">See More....</button>
+
+            </div>
+            <div class="col ml-2 box ">
+                <img src="images/man1.jpg" alt="">
+            </div>
+        </div>
+
+      <!-- section containing skills level -->
+        <h1 id="header">Skill Set</h1> 
+        <div class="row w-100 h-auto mt-2 skillrow">
+            <div class="col box1">
+                <h5>Public Speaking 90%</h5>
+               <div class="rate"><div class="rate1"></div></div>
+               <h5>Data Science and Research 60%</h>
+               <div class="rate"><div class="rate2"></div></div>
+               <h5>Interpersonal Relationship 95%</h5>
+               <div class="rate"><div class="rate3"></div></div>
+            </div>
+            <div class="col box1 ">
+                <div class="col box1 ">
+                    <h5>Public Speaking 90%</h5>
+                   <div class="rate"><div class="rate1"></div></div>
+                   <h5>Data Science and Research 60%</h>
+                   <div class="rate"><div class="rate2"></div></div>
+                   <h5>Interpersonal Relationship 95%</h5>
+                   <div class="rate"><div class="rate3"></div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section containing slideshow of work -->
+        <h1 id="header">My Work</h1>
+        <div class="row w-100 mt-2 work">
+            <div class="col h-100  shadow box4"></div>
+            <div class="col h-100 shadow box4"></div>
+        </div>
+
+        <!-- section containing blue opacity -->
+        <div class="row w-100 need">
+            <div class="opa2">
+                <h5>Need my Service?</h5>
+                <h1>Let's discuss a new project</h1>
+                <button href="">Let's Talk</button>
+            </div>
+           
+        </div>
+
+        <!-- footer and concluding sectcion -->
+        <div class="row w-100 p-5 foot">
+            <div class="col box7 border-right">
+                <p>Address</p>
+                <p style="color: grey;">No. 46, Johnson Street, Yaba Village, Lagos.</p>
+            </div>
+            <div class="col box7 border-right">
+                <p>Email</p>
+                <p style="color: grey;">Naughty-boy@gmail.com</p>
+            </div>
+            <div class="col box7">
+                <p>Phone</p>
+                <p style="color: grey;">08083919037, 08117841622</p>
+            </div>
+        </div>
+        <div class="row w-100 foot2">
+            <p style="margin-left:5%;">Privacy Policy</p>
+            <p style="margin-left:33%;">@2020 Josh.</p>
+            <div class="col-3 bg-danger icons "></div>
+        </div>
+        
+        
 
 
     </div>
+
+
+
+
+
+    <script src="main.js"></script>
+    
 </body>
 </html>

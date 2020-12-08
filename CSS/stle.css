@@ -8,9 +8,6 @@
     width: 100%;
     height: 660px;
     animation: animate 12s step-start infinite;
-    /* background-image: url("../images/Simple\ Work\ Blog\ Banner.png");
-    background-repeat: no-repeat;
-    background-size: 100%; */
 }
 @keyframes animate{
     0%, 100%{
@@ -20,7 +17,7 @@
         background-image: url("../images/banna.jpg");
     }
     50%{
-        background-image: url("../images/Simple\ Work\ Blog\ Banner.png");
+        background-image: url("../images/ddls-blog-header-banner-can-a-project-management-course-help-you-achieve-your-career-goals.jpg");
     }
     75%{
         background-image: url("../images/banna2.png");
@@ -29,11 +26,18 @@
 #opa{
 width: 100%;
 height: 100%;
-background-color: rgba(0, 0, 0, 0.8)
+background-color: rgba(0, 0, 0, 0.5)
 }
 .nav ul{
 margin-left: 20%;
 width: 60%;
+}
+#men a{
+    display: none;
+}
+#men a:hover{
+    color: #FF8C00;
+    border-bottom: solid 2px #FF8C00;
 }
 .nav ul a{
 font-size: 21px;
@@ -67,6 +71,15 @@ padding-top: 40px;
 width: auto;
 height: auto;
 display: flex
+}
+#icon{
+width: 55px;
+height: 30px;
+display: none;
+}
+#icon img{
+width: 100%;
+height: 100%;
 }
 .text{
 width: auto;
@@ -111,9 +124,9 @@ border: solid wheat;
 color: #FF8C00;
 border: solid #FF8C00;
 }
-.mybio{
+#mybio{
 width: 80%;
-height: 200px;
+height: auto;
 margin: auto;
 margin-top: 70px;
 text-align: center;
@@ -123,11 +136,228 @@ color: #FF8C00;
 font-weight: 700;
 font-size: 20px;
 }
-.mybio h1{
+#mybio h1{
 font-size: 55px;
 font-weight: 700;
 }
 .p{
 font-size: 18px;
 color: black;
+}
+.box{
+    height: auto;
+padding-left: 50px;
+}
+.box H1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.box p{
+font-size: 18px;
+font-weight: normal;
+margin-right: 120px;
+text-align: justify;
+}
+.pm{
+   margin-top: 30px;
+   font-weight: bold;
+}
+.box button{
+width: 20%;
+height: 50px;
+border: none;
+margin-top: 35px;
+background-color: #FF8C00;
+}
+.box img{
+margin-left: 20%;
+    width: 70%;
+    height: 500px;
+}
+.box1{
+    height: auto;
+}
+.box1 h1{
+font-size: 35px;
+font-weight: 700;
+padding-left: 50px;
+}
+.rate{
+width: 87%;
+height: 10px;
+border-radius: 10px;
+border: solid 1px #c7c6c6;
+margin: 5%;
+}
+.rate1{
+    width: 90%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #FF8C00;
+}
+.rate2{
+    width: 70%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #FF8C00; 
+}
+.rate3{
+    width: 95%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #FF8C00;
+}
+.box1 h5{
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 20px;    
+}
+.work{
+    height: 400px;
+    margin-bottom: 5%;
+}
+.box4{
+    margin-left: 5%;
+
+}
+#header{
+margin-left: 7%;
+font-size: 30px;
+font-weight: bold;
+}
+.need{
+height: 450px;
+background-image: url("../images/banna2.png");
+}
+.opa2{
+width: 100%;
+height: 100%;
+background-color: rgba(26, 26, 126, 0.8);
+text-align: center;
+padding-top: 80px;
+color: wheat;
+}
+.opa2  h5{
+    font-weight: 700;
+}
+.opa2 h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.opa2 button{
+    width: 16%;
+height: 60px;
+border: none;
+margin-top: 35px;
+font-size: 120%;
+font-weight: bold;
+background-color: #FF8C00;
+}
+.foot{
+    height: 300px;
+    background-color: rgb(16, 16, 61);
+}
+.box7{
+    text-align: center;
+    padding-top: 3%;
+   color: wheat;
+}
+.foot2{
+    height: 80px;
+    background-color:rgb(16, 16, 61);
+}
+.foot2 p{
+    color: wheat;
+}
+.icons{
+    height: 50px;
+    margin-left: 20%;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:1160px ){
+    .nav ul{
+        display:none;
+    }
+    #men{
+        position: absolute;
+        top: 90px;
+        border: solid 1px #dfdfdf;
+        margin-left: 60%;
+        width: 200px;
+        display: none;
+
+    }
+    #men a{
+        display: block;
+        color: wheat;
+    }
+    #icon{
+        position: absolute;
+        display: block;
+        margin-left: 77%;
+    }
+}
+@media(max-width:1200px ){
+    .biorow{
+        display: block;
+    }
+    .box img{
+        width: 60%;
+        height: 500px;
+        margin-top: 5%;
+    }
+}
+@media(max-width:850px ){
+    .box h1{
+        font-size: 35px;
+    }
+    .pm{
+        display: none;
+    }
+    .box img{
+        width: 80%;
+        margin-left: 1%;
+        margin-bottom: 3%;
+    }
+}
+@media(max-width:650px ){
+    .foot{
+        display: block;
+        height: auto;
+    }
+    .box7{
+        border-right: none;
+    }
+    .foot2 p{
+        display: none;
+    }
+    .icons{
+        margin: auto;
+        width: 200px;
+    }
+    .box p{
+        font-size: 16px;
+        margin-right: 2%;
+    }
+    .skillrow{
+        display: block;
+        height: auto;
+    }
+}
+@media(max-width:750px ){
+    .work{
+        display: block;
+        
+    }
 }
